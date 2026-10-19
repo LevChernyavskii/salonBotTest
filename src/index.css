@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom, 1rem);
+  }
+}
+
+ruby.ruby-text {
+  display: inline-flex;
+  flex-direction: column-reverse;
+  vertical-align: bottom;
+  align-items: center;
+  line-height: 1.1;
+  margin: 0 1px;
+}
+
+ruby.ruby-text rt {
+  user-select: none;
+}
+
+/* Custom subtle dark scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d1117;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #21262d;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #30363d;
+}

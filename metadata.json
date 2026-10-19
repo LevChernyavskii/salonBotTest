@@ -1,0 +1,6 @@
+{
+  "name": "AnkiPulse SRS Flashcards",
+  "description": "Precision Spaced Repetition flashcards for language mastery with authentic SM-2 scheduling, audio TTS, offline PWA, and rich statistics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

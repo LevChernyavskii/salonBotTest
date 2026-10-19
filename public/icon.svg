@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117" />
+      <stop offset="100%" stop-color="#161B22" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <!-- Background tilted card -->
+  <rect x="175" y="105" width="220" height="280" rx="20" fill="#1E293B" transform="rotate(12 285 245)" stroke="#38BDF8" stroke-width="4" stroke-opacity="0.4" />
+  <!-- Main card -->
+  <rect x="120" y="125" width="230" height="290" rx="22" fill="url(#cardGrad)" stroke="#A5B4FC" stroke-width="3" />
+  <!-- Symbol / Repeat Flash -->
+  <circle cx="235" cy="235" r="46" fill="#0D1117" fill-opacity="0.3" />
+  <path d="M220 195 L255 235 L225 240 L245 285 L215 245 L240 240 Z" fill="#FDE047" />
+  <!-- Accent Lines representing vocabulary / cards -->
+  <rect x="155" y="325" width="160" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.9" />
+  <rect x="175" y="350" width="120" height="8" rx="4" fill="#A7F3D0" />
+  <!-- SRS Indicator dots -->
+  <circle cx="165" cy="165" r="7" fill="#60A5FA" />
+  <circle cx="190" cy="165" r="7" fill="#F43F5E" />
+  <circle cx="215" cy="165" r="7" fill="#34D399" />
+</svg>
